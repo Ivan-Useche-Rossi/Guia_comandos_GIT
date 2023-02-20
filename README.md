@@ -13,7 +13,7 @@ GIT PULL ORIGIN MAIN
 Obtiene los cambios previamente obtenidos del comando anterior y los incorpora en la copia local para que este este actualizado.
 
 
-GIT ADD . (tener cuidado, el "." esta separado previamente por un "espacio"
+GIT ADD . (tener cuidado, el "." esta separado previamente por un "espacio" (NO DEBE SALIR "FATAL" o "ERROR")
 
 Toma los archivos y los agrega.
 
