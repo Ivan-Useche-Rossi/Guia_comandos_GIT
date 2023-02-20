@@ -2,17 +2,20 @@
 
 GIT STATUS
 
-Este comando te muestra el estado en que se encuentra tu archivo que desas subir a GitHub (no es necesario usarlo toda slas veces, pero en caso de no estar seguro de en que estado se encuentra el repositorio, se recomiendo escribir el comando seguido de la tecla "enter" para verificar el estado del repositorio)
+Este comando te muestra el estado en que se encuentra tu archivo que desas subir a GitHub (no es necesario usarlo todas las veces, pero en caso de no estar seguro de en que estado se encuentra el repositorio, se recomiendo escribir el comando seguido de la tecla "enter" para verificar el estado del repositorio)
 
-GIT INIT
+GIT FETCH ORIGIN MAIN
 
-Este comando inicializa la carpeta que contine los archivos a subir a GIT como un repositorio. (Esto solo se realiza cuando se queire subir un proyecto como repositorio a Git Hub)
+Este comando agrega cambios desde un repositorio remoto a tu repositorio local. Te permitirá revisar los cmabios antes de subirlos a tu rama local.
 
-GIT REMOTE ADD ORIGIN (en este espacio se debe pegar la URL que se copia previamente del repositorio creado en GitHub, el cual se encuentra en la pestaña SSH)
+GIT PULL ORIGIN MAIN
 
-Este comando agrega un repositorio remoto que esel origen del prpyecto. Con esto, el GIT del pc sabe a que repositorio subirá el proyecto. 
+Obtiene los cambios previamente obtenidos del comando anterior y los incorpora en la copia local para que este este actualizado.
+
 
 GIT ADD . (tener cuidado, el "." esta separado previamente por un "espacio"
+
+Toma los archivos y los agrega.
 
 GIT COMMIT -M "FIRST COMMIT"
 
@@ -21,3 +24,5 @@ El "COMMIT" lo que hace es tomar todos los archivos junto con sus cambios hasta 
 
 GIT PUSH -U ORIGIN MAIN
 
+Este comando nos subirá nuestro repositorio, tomará todos nuestros archivos y los subirá a la rama main de GitHub.
+La parte "-U" lo que hace es actualizar en caso de que existan cambios. (no es obligaotorio ponerlo pero se recomieda incluirlo)
